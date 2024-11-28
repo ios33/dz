@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+		<title>爱锋助手定制站	</title>
+		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="static/css/NewSign.css">
+		<link href="static/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="static/css/mobileSelect.css">
+		<script type="text/javascript" src="static/js/jquery.js"></script>
+		<script type="text/javascript" src="static/js/mobileSelect.js"></script>
+		<script src="https://p12.iosoi.cn/assets/index/css/layer.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="static/css/layer.css" id="layuicss-layer">
+		<link href="static/css/bootstrap-icons.css" rel="stylesheet">
+		<link href="static/css/swiper-3.4.1.min.css" rel="stylesheet">
+		<script type="text/javascript" src="static/js/swiper-3.4.1.min.js"></script>
+		<script type="text/javascript" src="static/js/jquery.blockUI.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="static/css/fontawesome-all.min.css">
+		
+		
+		<style type="text/css">
+			body{font:14px/150% microsoft yahei,tahoma;}.clear{clear:both}.RadioStyle input{display:none}.RadioStyle label{border:1px solid #FF0066;padding:2px 10px 2px 5px;line-height:28px;min-width:80px;text-align:center;float:left;margin:2px;border-radius:4px}.RadioStyle input:checked + label{background:url(static/image/ico_checkon.svg) no-repeat right bottom;background-size:21px 21px;color:#FF0066}.xc_build{width:29px;height:29px;float:left;margin:3px 10px;}
+		</style>
+
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover">
+	</head>
+    
+	<body id='body1' class="theme-light is-not-ios" data-highlight="blue2">
+		<div id="preloader" class="preloader-hide">
+			<div class="spinner-border color-highlight" role="status"></div>
+		</div>
+		<div id="page" style="min-height: 812px;">
+			<div id="footer-bar" class="footer-bar-10 footer-bar-detached">
+				<a onclick="pagetab(&#39;Help&#39;);" id="Tab-Help">
+					<i class="fa fa-question-circle text-warning"></i>
+					<span>答疑解惑</span>
+				</a>
+				<a onclick="pagetab(&#39;Home&#39;);" id="Tab-Home" class="circle-nav-2">
+					<i class="fa fa-home text-success"></i>
+					<span>自助首页</span>
+				</a>
+				<a onclick="pagetab(&#39;Query&#39;);" id="Tab-Query">
+					<i class="fa fa-search text-info"></i>
+					<span>查询签名</span>
+				</a>
+			</div>
+			<div class="page-content  bg-5" id="changebg" style="min-height: 812px;">
+			    
+				<div class="card   card-style  mt-3 mb-2  bg-rgba ">
+				
+					
+				<div class="swiper-container" style="width: 100%;height:160px">
+				<div class="swiper-wrapper" id="bannerList">
+                                 <a onclick=" window.location.href='https://p12.iosoi.cn/'" class="banner swiper-slide" style="height: 100%;width: 100%;">
+    			<img src="static/picture/3068f5d2c48a82c49b967f074a7b16aa.png" width="100%" height="100%">
+    		    </a>
+                                 <a onclick=" window.location.href='https://cxydh.xyz/rjy1/'" class="banner swiper-slide" style="height: 100%;width: 100%;">
+    			<img src="static/picture/ce2632f9dd579d4184e32c90b969bc96.jpg" width="100%" height="100%">
+    		    </a>
+                                       
+                   
+                        
+        		</div>
+        		<div class="swiper-pagination"></div>
+				</div>
+					</div>
+				<div class="col-12 ">
+				<div class="top-text">
+				<div class="top-text-icon"></div>
+				<!--公告文字-->
+				<div class="scroll-text top-text-notice fs14" id="scroll-text">
+				
+                                <div class="scroll-auto scroll-text">欢迎使用定制平台，禁止任何违法APP签名</div>
+                                <div class="scroll-auto scroll-text">受大环境影响证书价格会经常波动，请理解</div>
+                               
+                  
+				</div>
+				
+			
+			</div>
+				<span id="allcode">
+						</span>
+				</div>
+				<div id="Home">
+					<div class=" accordion mt-2" id="accordion-6">
+						<div class="card card-style bg-green1-dark mb-4">
+							<button class="btn accordion-btn border-0 bg-dark2-dark" data-toggle="collapse" data-target="#collapse1">
+								<i class="fa fa-star mr-2 text-warning"></i>点击查看 | 安装须知 | 教程说明 | 关于我们<i class="fa fa-chevron-down font-10 accordion-icon"></i>
+							</button>
+							
+																<!--开站时间开始-->       
+					<center>
+  
+            <span class="nav-item">
+             <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span> <script language="javascript"> 
+    var now = new Date();
+    function createtime(){
+        var grt= new Date("01/01/2022 00:00:00");/*---这里是网站的启用时间--*/
+        now.setTime(now.getTime()+250);
+        days = (now - grt ) / 1000 / 60 / 60 / 24;
+        dnum = Math.floor(days);
+        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
+        hnum = Math.floor(hours);
+        if(String(hnum).length ==1 ){hnum = "0" + hnum;}
+        minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if(String(mnum).length ==1 ){mnum = "0" + mnum;}
+        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if(String(snum).length ==1 ){snum = "0" + snum;}
+        document.getElementById("timeDate").innerHTML = "⏱️本站已稳定运行"+dnum+"天";
+        document.getElementById("times").innerHTML = hnum + "小时" + mnum + "分" + snum + "秒";
+    }
+    setInterval("createtime()",250); 
+</script>  
+		<!--开站时间结束-->  						
+							<div id="collapse1" class="collapse bg-theme show" data-parent="#accordion-6">
+								<div class="p-3 color-theme">
+									<p class="pb-0 mb-0 font-18"></p>
+								    <p class="pb-0 mb-0"><font color="red">※※※※二次使用本系统，无需填写签名码※※※※</font></p>
+<p class="pb-0 mb-0">②证书绑定设备｜不可多机使用｜支持推送权限</p>
+<p class="pb-0 mb-0">③提供证书文件｜签名任何应用｜支持健康权限</p>
+
+<a href="https://cxydh.xyz/jc/" target="_blank" class="btn btn-xxs   bg-dark2-light">⚠安装教程⚠</a>
+
+<a href="https://cxydh.xyz/rjy1/" target="_blank" class="btn btn-xxs bg-green2-light">🍎添加软件源🍎</a>
+
+<a href="https://s0h.cn/K4iy" target="_blank" class="btn btn-xxs bg-red2-light">💴买签名码💴</a>
+<a href="static/file/kefu.jpg" target="_blank" class="btn btn-xxs bg-red2-light">😀联系客服😀</a>								</div>
+							</div>
+						</span></center></div>
+					</div>
+					<div class="card card-style bg-rgba " style="background: #fff">
+						<div class="content">
+						
+								<div class="input-style input-style-2">
+									<span class="input-style-1-active" style="background: #fff;font-weight: bold;">设备UDID</span>
+									<em>
+										<a target="_blank" class="btn btn-xxs rounded-s text-uppercase font-900 shadow-s border-dark2-dark  bg-dark2-light" onclick="getudidi()">获取UDID</a>
+									</em>
+									<input type="text" id="udid" class="form-control" placeholder="请点击获取UDID（必须）" value="">
+								</div>
+								<div class="input-style input-style-2">
+									<span class="input-style-1-active" style="background: #fff;font-weight: bold;">选择软件</span>
+									<div id="applist" class="form-control " style="border-radius: 10px; height: 48px; line-height: 38px; font-size: 12px; background: #fff; cursor: pointer;">选择分类 | 选择软件</div>
+									<input type="hidden" id="NewIpa">
+								</div>
+							
+									
+							
+								
+								
+							<div class="input-style input-style-2">
+									<span class="input-style-1-active" style="background: #fff;font-weight: bold;">签名码</span>
+								     
+									<em>
+										<a href="https://s0h.cn/K4iy" target="_blank" class="btn btn-xxs rounded-s text-uppercase font-900 shadow-s border-dark-dark  bg-dark2-light">购买签名码</a>
+									</em>
+																		
+									<input type="text" id="code" class="form-control" placeholder="请输入签名码(二次使用无需输入）" value="">
+								</div>
+							
+							<div class=" accordion mt-2" id="accordion-6">
+        						<div class="card card-style bg-green1-dark mb-4" style="margin: 0px 0px 30px 0px;">
+        							<button class="btn accordion-btn border-0 bg-blue2-dark" data-toggle="collapse" data-target="#collapse200">
+        								<i class="fa fa-gear mr-2 text-warning"></i>点击设置 图标 | 标识 | 名称 -- 可忽略<i class="fa fa-chevron-down font-10 accordion-icon"></i>
+        							</button>
+        							<div id="collapse200" class="collapse bg-theme" data-parent="#accordion-6">
+        								<div class="p-3 color-theme">
+        									<p class="pb-0 mb-0 font-18"></p>
+        								  	
+        								  		<div class="input-style input-style-2">
+            									<span class="input-style-1-active" style="background: #fff;font-weight: bold;">修改图标</span>
+            									
+            									<input type="text" id="appicon" class="form-control" maxlength="0" placeholder="从右侧上传图标，不上传即不修改">
+            									<img onclick="upimg.click()" id='tubiao8888' style="position: absolute;top: 2px; right:4px;" width=45px height=45px src="static/picture/jia.png">
+            							
+            								    </div>
+        								  
+            								<div class="input-style input-style-2">
+            									<span class="input-style-1-active" style="background: #fff;    font-weight: bold;">修改名称</span>
+            									
+            									<input type="text" id="appname" class="form-control" placeholder="修改APP名称，可空，不懂请无视" value="">
+            								</div>
+            								
+            								<div class="input-style input-style-2">
+            									<span class="input-style-1-active" style="background: #fff;    font-weight: bold;">修改标识</span>
+            								<em>
+            								  	<i onclick="xgtip()" id="xgtip" class="fa fa-question-circle text-warning"></i>  
+									
+									</em>
+            									<input type="text" id="appbid" class="form-control" placeholder="修改BundleId，可空，不懂请无视" value="">
+            								</div>
+            								
+        								</div>
+        							</div>
+        						</div>
+        					</div>
+        					
+        					<div id='appmiaoshu' class="card card-style bg-green1-dark mb-4" style="display: none; margin: 0px 0px 30px 0px; ">
+							<button class="btn accordion-btn border-0 color-white" data-toggle="collapse" data-target="#collapse12">
+								<i class="fa fa-star mr-2 "></i>
+								软件说明
+								<i class="fa fa-chevron-down font-10 accordion-icon"></i>
+							</button>
+							<div id="collapse12" class="collapse bg-theme show" data-parent="#accordion-6">
+								<div id='appdesc' class="p-3 color-theme">
+									
+								</div>
+							</div>
+						</div>
+				
+								
+							
+								
+								
+							
+                        	    <div id="dz1" style="display:none" class="input-group mb-2">
+                        	        <div class="input-style input-style-2" style="width:25%;">
+									<span class="input-style-1-active" style="background: #fff;font-weight: bold;">多开APP</span>
+                        	        <input type="text" id="dknum" style="text-align:center; border-radius: 10px 0px 0px 10px!important;" class="form-control" placeholder="多开个数" value="1" oninput="js(this.value)" onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^0-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^0-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onporpertychange="js(this.value)">
+                        	   
+								</div>
+									<button style="border-radius: 0px 10px 10px 0px!important;width:75%;height: 50px; margin-top: 0rem !important;" type="button" class="btn btn-m mt-3 btn-full bg-green2-dark rounded-sm text-highlight font-900" onclick="gogogo()">开始安装</button>
+								</div>
+								<div id="dz2" style="display:none" class="input-group mb-2">
+								    	<button style="width:100%;" type="button" class="btn btn-m mt-3 btn-full bg-green2-dark rounded-sm text-highlight font-900" onclick="gogogo()">开始安装</button>
+								</div>
+								    
+
+
+								
+
+	
+							
+						</div>
+					</div>  
+
+
+				</div>
+				<div id="Query" style="display: none;">
+					<div class="card card-style bg-rgba" style="background: #fff">
+						<div class="content">
+							<div class="input-style input-style-2">
+								<span class="input-style-1-active" style="background: #fff;"><b>查询签名</b></span>
+								<em>
+									<a class="btn btn-xxs rounded-s text-uppercase font-900 shadow-s border-dark2-dark  bg-dark2-light" onclick="getudidi()">获取UDID</a>
+								</em>
+								<input type="text" id="QueryUDID" class="form-control" placeholder="请输入UDID查询" value="">
+							</div>
+							<div class="input-group mb-2">
+								<button style="width:100%" type="button" class="btn btn-m mt-3 btn-full bg-pink2-dark rounded-sm text-highlight font-900" onclick="isQuery()">查询</button>
+							</div>
+						</div>
+					</div>
+					<div id="QueryApplist" style="margin: 0px 16px 30px 16px;"> </div>
+				</div>
+				<div id="Help" style="display: none;">
+					<div class="accordion mt-4" id="accordion-6">
+						<div class="card card-style shadow-0 bg-red2-dark mb-0">
+							<button class="btn accordion-btn border-0  color-white" data-toggle="collapse" data-target="#collapse11">
+								<i class="fa fa-star mr-2"></i>
+								如何在线签名安装使用
+								<i class="fa fa-chevron-down font-10 accordion-icon"></i>
+							</button>
+							<div id="collapse11" class="collapse bg-theme" data-parent="#accordion-6">
+								<div class="p-3 color-theme">
+									获取UDID -&gt; 选择应用 -&gt; 填写相关信息 -&gt; 输入签名码 -&gt; 开始安装
+								</div>
+							</div>
+						</div>
+						<div class="card card-style bg-green1-dark mb-0">
+							<button class="btn accordion-btn border-0 color-white" data-toggle="collapse" data-target="#collapse12">
+								<i class="fa fa-star mr-2"></i>
+								在线安装需要多久？
+								<i class="fa fa-chevron-down font-10 accordion-icon"></i>
+							</button>
+							<div id="collapse12" class="collapse bg-theme" data-parent="#accordion-6">
+								<div class="p-3 color-theme">
+									在线UDID签名应用，一般1-2分钟即可在线搞定直接安装！
+								</div>
+							</div>
+						</div>
+						<div class="card card-style bg-blue2-dark mb-0">
+							<button class="btn accordion-btn border-0 color-white" data-toggle="collapse" data-target="#collapse13">
+								<i class="fa fa-star mr-2"></i>
+								安装软件后刷机或升级系统,之前的软件还能用吗?
+								<i class="fa fa-chevron-down font-10 accordion-icon"></i>
+							</button>
+							<div id="collapse13" class="collapse bg-theme" data-parent="#accordion-6">
+								<div class="p-3 color-theme">
+									可以，安装后可以刷机、升级系统、抹除还原，不影响软件使用
+								</div>
+							</div>
+						</div>
+						<div class="card card-style bg-yellow2-dark">
+							<button class="btn accordion-btn border-0 color-white" data-toggle="collapse" data-target="#collapse14">
+								<i class="fa fa-star mr-2"></i>
+								安装应用后换手机了新手机还能安装应用吗?
+								<i class="fa fa-chevron-down font-10 accordion-icon"></i>
+							</button>
+							<div id="collapse14" class="collapse bg-theme" data-parent="#accordion-6">
+								<div class="p-3 color-theme">
+									不可以，UDID安装应用是绑定设备的，A设备安装的应用无法在B设备上安装运行
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu-hider">
+				<div></div>
+			</div>
+		</div>
+	
+		<div id="menu-success-desp" class="menu menu-box-modal menu-box-detached rounded-m" data-menu-width="380" data-menu-effect="menu-over" style="width: 380px; display: block;">
+			<div class="card-top">
+				<a href="#" class="close-menu ad-time-close color-blue2-dark mt-2">
+					<i onclick="back()" class="fa fa-times"></i>
+					<span></span>
+				</a>
+			</div>
+			<div class="content mb-0">
+				<h1 class="color-blue2-dark">
+					<i class="fab fa-app-store color-blue2-dark"></i>&nbsp;任务完成
+				</h1>
+				<div class="divider mb-3"></div>
+				<div class="card card-style bg-dark mx-0 mb-3">
+					<div class="content">
+						<p class="color-white mb-3" id="Desp"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+
+
+		<style class="generated-highlight">
+			.color-highlight{color:#4A89DC!important}.bg-highlight, .page-item.active a{background-color:#4A89DC!important}.footer-bar-1 .active-nav *, .footer-bar-3 .active-nav i{color:#4A89DC!important} .footer-bar-2 strong, .footer-bar-4 strong, .footer-bar-5 strong{background-color:#4A89DC!important; color:#FFF;}.border-highlight{border-color:#4A89DC!important}.header-tab-active{border-color:#4A89DC!important}
+		</style>
+
+		<script>
+layer.msg('<b>本站公告</b> <br> <b>请花一分钟阅读本公告</b><br> <br>首次使用请先阅读使用说明<br>本站已支持后台签名功能<br> 签名时可以退出浏览器啦<br>  ', {
+        time: 60000, //60s后自动关闭
+        btn: ['请先看安装教程再购买和兑换，谢谢啦']
+       ,yes: function(index, layero){
+          	$('#collapse1').addClass('show');
+                layer.close(index)
+       }
+     
+      });
+</script>	
+<script type="text/javascript">
+    applist=[{"id":"qmgj","value":"\u7b7e\u540d\u5de5\u5177","childs":[{"id":253,"value":"\u8f7b\u677e\u7b7e","desc":"","bid":"p3.xyz.yyyue.esign","banben":"5.0.2","filesize":"7.75 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u8f7b\u677e\u7b7e\/5.0.2_1722678593_icon@3x.png.png"},{"id":255,"value":"\u5168\u80fd\u7b7e","desc":"","bid":"qnq.nuosike.sign","banben":"7.6.1","filesize":"6.37 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u5168\u80fd\u7b7e\/7.6.1_1730542864_icon@3x.png.png"}]},{"id":"duokai","value":"\u5e94\u7528\u5206\u8eab","childs":[{"id":288,"value":"\u5fae\u4fe1pro\u591a\u5f008048","desc":"\u652f\u6301\u63a8\u9001\u8bc1\u4e66\u7b7e\u540d\u65e0\u540e\u53f0\u5b8c\u7f8e\u63a8\u9001\u3002\u66f4\u65b0\u9ec4\u767d\u52a9\u624b1.7.6+PKC0.6.0+\u5fae\u4fe1\u52a9\u624b3.8.0+\u7231\u950b\u52a9\u624b1.6.3+\u9524\u5b50\u52a9\u624b201+\u6597\u56fe\u52a9\u624b+\u63d2\u4ef6\u7ba1\u7406\uff08\u63d2\u4ef6\u90fd\u5728\u201c\u5fae\u4fe1-\u6211-\u63d2\u4ef6\u201d\u91cc\u9762\uff09","bid":"com.tencent.qy.xin","banben":"8.0.48","filesize":"343.99 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u5fae\u4fe1\/8.0.48_1732692831_icon@3x.png.png"},{"id":297,"value":"\u5fae\u4fe1pro\u591a\u5f008054","desc":"","bid":"com.tencent.qy.xin","banben":"8.0.54","filesize":"329.85 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u5fae\u4fe1\/8.0.54_1732694216_icon@3x.png.png"},{"id":298,"value":"\u5fae\u4fe1pro\u591a\u5f008033","desc":"","bid":"com.tencent.qy.xin","banben":"8.0.33","filesize":"289.12 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u5fae\u4fe1\/8.0.33_1732358930_icon@3x.png.png"},{"id":290,"value":"\u8ba1\u7b97\u5668","desc":"","bid":"com.tencent.qy.xin","banben":"8.0.48","filesize":"313.45 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u8ba1\u7b97\u5668\/8.0.48_1729215046_icon@3x.png.png"},{"id":296,"value":"\u51e1\u5c14\u8d5b","desc":"","bid":"com.tencent.qy.xin","banben":"8.0.53","filesize":"348.95 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u5fae\u4fe1\/8.0.53_1731413080_icon@3x.png.png"},{"id":262,"value":"\u6597\u6218\u795e","desc":"\u7834\u89e3\u7248\u514d\u6388\u6743\u3002\u65e0\u9700\u6fc0\u6d3b\u7801-\u4fee\u590d\u4f4e\u7248\u672c\u4fee\u590d\u7f51\u7edc\\n\u81ea\u52a8\u8ddf\u5708(\u652f\u6301\u89c6\u9891)_\u7fa4\u53d1\u52a9\u624b_\u5bc6\u53cb_\u7ea2\u5305\u8f6c\u8d26_\u6d88\u606f\u7ba1\u5bb6_\u5168\u7403\u5b9a\u4f4d_\u591a\u7fa4\u8f6c\u64ad_\u6e05\u7406\u597d\u53cb\u7b49","bid":"com.tenc6nt.xing","banben":"8.0.49","filesize":"442.22 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u5fae\u4fe1\/8.0.49_1728833903_icon@3x.png.png"},{"id":263,"value":"\u8d75\u5b50\u9f99","desc":"\u7834\u89e3\u7248\u514d\u6388\u6743+\u7231\u950b\u52a9\u624b162\u3002\u65e0\u9700\u6fc0\u6d3b\u7801-\u4fee\u590d\u4f4e\u7248\u672c\u4fee\u590d\u7f51\u7edc\\n\u81ea\u52a8\u8ddf\u5708(\u652f\u6301\u89c6\u9891)_\u7fa4\u53d1\u52a9\u624b_\u5bc6\u53cb_\u7ea2\u5305\u8f6c\u8d26_\u6d88\u606f\u7ba1\u5bb6_\u5168\u7403\u5b9a\u4f4d_\u591a\u7fa4\u8f6c\u64ad_\u6e05\u7406\u597d\u53cb\u7b49","bid":"com.ZZeme.ColorTools1","banben":"8.0.42","filesize":"426.37 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u5fae\u4fe1\/8.0.42_1728836048_icon@3x.png.png"},{"id":264,"value":"\u6218\u72fc","desc":"","bid":"com.yinyue.keiem","banben":"1.0","filesize":"387.37 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u5fae\u4fe1\/1.0_1728837510_icon@3x.png.png"},{"id":295,"value":"\u5fae\u4fe1\u5bc6\u53cb","desc":"","bid":"com.tencent.qy.xin","banben":"8.0.48","filesize":"281.85 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u5fae\u4fe1\/8.0.48_1729736531_icon@3x.png.png"}]},{"id":"other","value":"\u5176\u4ed6\u5e94\u7528","childs":[{"id":294,"value":"\u81f4\u5bcc\u5b9d\u6a21\u62df\u5668","desc":"","bid":"com.newcompany.simulater","banben":"6.6.6","filesize":"204.23 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u652f\u4ed8\u5b9d\/6.6.6_1729416962_icon@3x.png.png"},{"id":293,"value":"\u95f2\u9c7c","desc":"","bid":"com.taobao.fleamarket.1","banben":"7.17.80","filesize":"97.86 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u95f2\u9c7c\/7.17.80_1729222559_icon@3x.png.png"},{"id":283,"value":"\u200eWhatsApp\u591a\u5f00","desc":"\u5185\u7f6eWatusi\u63d2\u4ef6\uff0c\u7981\u7528\u5df2\u8bfb\u56de\u6267\uff0c\u7981\u7528\u53d1\u9001\u56de\u6267\uff0c\u9690\u85cf\u6d88\u606f\uff0c\u9632\u64a4\u56de\uff0c\u4fdd\u5b58\u4e2a\u4eba\u8d44\u6599\u7167\u7247\uff0c\u81ea\u52a8\u56de\u590d\u7b49\u8d85\u591a\u529f\u80fd","bid":"net.whatsapp.WhatsApp.1","banben":"24.18.81","filesize":"103.29 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u200eWhatsApp\/24.18.81_1727004894_icon@3x.png.png"},{"id":282,"value":"\u200eWA Business\u591a\u5f00","desc":"\u5185\u7f6eWatusi\u63d2\u4ef6\uff0c\u7981\u7528\u5df2\u8bfb\u56de\u6267\uff0c\u7981\u7528\u53d1\u9001\u56de\u6267\uff0c\u9690\u85cf\u6d88\u606f\uff0c\u9632\u64a4\u56de\uff0c\u4fdd\u5b58\u4e2a\u4eba\u8d44\u6599\u7167\u7247\uff0c\u81ea\u52a8\u56de\u590d\u7b49\u8d85\u591a\u529f\u80fd","bid":"net.whatsapp.WhatsAppSMB.1","banben":"24.18.80","filesize":"109.18 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u200eWABusiness\/24.18.80_1727005009_icon@3x.png.png"},{"id":275,"value":"\u8fc5\u96f7beta\u5b9a\u5236\u7248","desc":"\u73b0\u5728\u82f9\u679c\u8bbe\u5907\u60f3\u4e0b\u8f7d\u4e2a\u300c\u672a\u9609\u5272\u300d\u7684\u8fc5\u96f7\u662f\u771f\u7684\u96be\uff0c\u4f60\u53ef\u80fd\u9700\u8981\u5b9a\u5236\u7248\u8fc5\u96f7\uff0c\u5b83\u5c31\u662f\u300c\u672a\u9609\u5272\u300d\u8fc5\u96f7\u7684\u6700\u7a33\u5b9a\u5b89\u88c5\u65b9\u5f0f\uff0c100%\u53ef\u4ee5\u5b89\u88c5\u6253\u5f00\uff0c\u9664\u6b64\u4e4b\u5916\uff0c\u5e76\u65e0\u4ed6\u9009\u3002\r\n\r\n\u6b64\u7248\u672c\u9002\u914diOS13~iOS18 \u652f\u6301BT\/\u78c1\u529b\u94fe\u7b49\u5168\u683c\u5f0f\u6587\u4ef6\u76f4\u63a5\u4e0b\u8f7d\/\u4e0d\u9650\u901f\/\u65e0\u9700\u6dfb\u52a0\u7b14\u8bb0\/\u6295\u5c4f\/\u8fb9\u4e0b\u8fb9\u64ad\/\u672c\u5730\u76f4\u63a5\u4e0b\/\u5907\u4efdXFILE\/\u5bfc\u51faWebDAV\/\u5bfc\u51fa\u526a\u8f91\r\n\r\n\u4f7f\u7528\u671f\u9650\u7406\u8bba1\u5e74\uff0c24\u5c0f\u65f6\u968f\u65f6\u63a5\u53d7\u5b9a\u5236\uff0c\u73b0\u5728\u80fd\u7acb\u9a6c\u7528\u4e0a\u3002","bid":"com.xunlei.iosthunder","banben":"7.7","filesize":"49.02 MB","image":"https:\/\/p12.iosoi.cn\/cos\/\u8fc5\u96f7Beat\/7.7_1724472445_icon@3x.png.png"},{"id":274,"value":"PokeMMO","desc":"\u591a\u4eba\u8054\u673a\u5b9d\u53ef\u68a6<a href=\"https:\/\/pan.afzs.store\/iOS%E6%B8%B8%E6%88%8F\/PokeMMO%E5%AE%9D%E5%8F%AF%E6%A2%A6\"  target=\"_blank\" class=\"btn btn-xxs   bg-dark2-light\" >\u8bbe\u7f6e\u6559\u7a0b<\/a>","bid":"eu.pokemmo.client","banben":"26211","filesize":"98.50 MB","image":"https:\/\/p12.iosoi.cn\/cos\/PokeMMO\/26211_1724472270_AppIcon60x60.png"},{"id":257,"value":"TrollInstallerX","desc":"\u5de8\u9b54\u5b89\u88c5\u5668TrollInstallerX \u652f\u6301\u8fd0\u884c iOS 14.0 - 16.6.1 \u7684\u6240\u6709\u8bbe\u5907","bid":"com.Alfie.TrollInstallerX","banben":"1.0.2","filesize":"4.00 MB","image":"https:\/\/p12.iosoi.cn\/cos\/TrollInstallerX\/1.0.2_1722695128_AppIcon60x60.png"},{"id":266,"value":"Taurine","desc":"","bid":"org.coolstar.taurine","banben":"1.1.6","filesize":"30.46 MB","image":"https:\/\/p12.iosoi.cn\/cos\/Taurine\/1.1.6_1722734895_AppIcon60x60.png"},{"id":265,"value":"unc0ver","desc":"","bid":"science.xnu.undecimus","banben":"8.0.2","filesize":"51.97 MB","image":"https:\/\/p12.iosoi.cn\/cos\/unc0ver\/8.0.2_1722734868_AppIcon60x60.png"},{"id":277,"value":"ESign","desc":"\u65e7\u7248","bid":"p3.xyz.yyyue.esign","banben":"4.8.2","filesize":"6.76 MB","image":"https:\/\/p12.iosoi.cn\/cos\/ESign\/4.8.2_1724921616_icon@3x.png.png"}]}];
+    plkg=1;
+    plxz=5; 
+    appid=0;
+    xxxx='';
+
+</script>
+<script>
+
+
+function getudidi() {
+    var userAgent = navigator.userAgent;
+    var iOSVersion = parseFloat((userAgent.match(/OS (\d+)_(\d+)_?(\d+)?/) || [])[1]);
+    if (iOSVersion < 17.0) {
+        window.location.href = 'udid.mobileconfig'; // 实际获取udid描述文件
+        setTimeout(function() {
+            window.location.href = 'https://gsqv3-1322217970.cos.ap-beijing.myqcloud.com/TZ.mobileprovision'; //
+        }, 1500); // 1500代表时间
+    } else {
+        window.location.href = 'udid.mobileconfig'; // 实际获取udid描述文件
+        alert('当前设备系统版本为17.0及以上，请前往iPhone设置安装描述文件以获取UDID');
+    }
+}
+
+
+</script>
+<script type="text/javascript" src="static/js/index.js"></script>
+<input type="file" required placeholder="文件流" style="display:none" id="upimg">   	
+</body>
+
+</html>
