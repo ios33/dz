@@ -1,6 +1,6 @@
 @font-face {
 	font-family:bootstrap-icons;
-	src:url(../font/bootstrap-icons.woff2) format("woff2"),url(https://p12.iosoi.cn/assets/index/font/bootstrap-icons.woff) format("woff")
+	src:url(https://www.868dz.com/assets/index/font/bootstrap-icons.woff2) format("woff2"),url(https://www.868dz.com/assets/index/font/bootstrap-icons.woff) format("woff")
 }
 [class^=bi-]::before,[class*=" bi-"]::before {
 	display:inline-block;

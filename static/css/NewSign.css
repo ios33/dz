@@ -170,16 +170,16 @@ p {
 	margin-bottom:20px !important
 }
 .theme-light .header .header-logo {
-	background-image:url(https://p12.iosoi.cn/assets/index/images/preload-logo.png)
+	background-image:url(https://www.868dz.com/assets/index/images/preload-logo.png)
 }
 .theme-dark .header .header-logo {
-	background-image:url(https://p12.iosoi.cn/assets/index/images/preload-logo.png)
+	background-image:url(https://www.868dz.com/assets/index/images/preload-logo.png)
 }
 .theme-light .footer .footer-logo {
-	background-image:url(https://p12.iosoi.cn/assets/index/images/preload-logo.png)
+	background-image:url(https://www.868dz.com/assets/index/images/preload-logo.png)
 }
 .theme-dark .footer .footer-logo {
-	background-image:url(https://p12.iosoi.cn/assets/index/images/preload-logo.png)
+	background-image:url(https://www.868dz.com/assets/index/images/preload-logo.png)
 }
 .header-title span {
 	font-family:"Poppins",sans-serif
@@ -2129,7 +2129,7 @@ img.mx-auto {
 	animation:infiniteBG 600s;
 	animation-iteration-count:infinite;
 	animation-timing-function:linear;
-	background-image:url(https://p12.iosoi.cn/assets/index/css/images/mountain.jpg);
+	background-image:url(https://www.868dz.com/assets/index/css/images/mountain.jpg);
 	background-size:cover;
 	background-repeat:repeat;
 	background-position:left bottom;
@@ -4411,19 +4411,19 @@ code {
 	border-color:rgba(255,255,255,0.04)
 }
 .bg-0 {
-	background-image:url(https://p12.iosoi.cn/assets/index/images/pictures/0l.jpg)
+	background-image:url(https://www.868dz.com/assets/index/images/pictures/0l.jpg)
 }
 .bg-1 {
-	background-image:url(https://p12.iosoi.cn/assets/index/images/pictures/1.jpg)
+	background-image:url(https://www.868dz.com/assets/index/images/pictures/1.jpg)
 }
 .bg-2 {
-	background-image:url(https://p12.iosoi.cn/assets/index/images/pictures/2.jpg)
+	background-image:url(https://www.868dz.com/assets/index/images/pictures/2.jpg)
 }
 .bg-3 {
-	background-image:url(https://p12.iosoi.cn/assets/index/images/pictures/3.jpg)
+	background-image:url(https://www.868dz.com/assets/index/images/pictures/3.jpg)
 }
 .bg-4 {
-	background-image:url(https://p12.iosoi.cn/assets/index/images/pictures/4.jpg)
+	background-image:url(https://www.868dz.com/assets/index/images/pictures/4.jpg)
 }
 .bg-5 {
 background: #FFF;
@@ -4567,7 +4567,7 @@ html.lb-disable-scrolling {
 	width:32px;
 	height:32px;
 	margin:0 auto;
-	background:url(../image/loading-0.gif) no-repeat
+	background:url(https://www.868dz.com/assets/index/images/loading.gif) no-repeat
 }
 .lb-nav {
 	position:absolute;
@@ -4594,7 +4594,7 @@ html.lb-disable-scrolling {
 	width:34%;
 	left:0;
 	float:left;
-	background:url(../image/prev.png) left 48% no-repeat;
+	background:url(https://www.868dz.com/assets/index/images/prev.png) left 48% no-repeat;
 	filter:alpha(Opacity=0);
 	opacity:0;
 	-webkit-transition:opacity .6s;
@@ -4610,7 +4610,7 @@ html.lb-disable-scrolling {
 	width:64%;
 	right:0;
 	float:right;
-	background:url(https://p12.iosoi.cn/assets/index/images/next.png) right 48% no-repeat;
+	background:url(../image/next.png) right 48% no-repeat;
 	filter:alpha(Opacity=0);
 	opacity:0;
 	-webkit-transition:opacity .6s;
@@ -4656,7 +4656,7 @@ html.lb-disable-scrolling {
 	float:right;
 	width:30px;
 	height:30px;
-	background:url(https://p12.iosoi.cn/assets/index/images/close.png) top right no-repeat;
+	background:url(https://www.868dz.com/assets/index/images/close.png) top right no-repeat;
 	text-align:right;
 	outline:0;
 	filter:alpha(Opacity=70);
@@ -4940,7 +4940,7 @@ html.lb-disable-scrolling {
 	top:50%;
 	margin-left:-40px;
 	margin-top:-40px;
-	background:url(https://p12.iosoi.cn/assets/index/css/owl.video.play.png) no-repeat;
+	background:url(https://www.868dz.com/assets/index/css/owl.video.play.png) no-repeat;
 	cursor:pointer;
 	z-index:1;
 	-webkit-backface-visibility:hidden;
@@ -5550,7 +5550,7 @@ background: rgba(255, 255, 255, 0.85);
 .top-text-icon {
 	height: 21px;
 	width: 21px;
-	background-image: url(../image/icon-voice.png);
+	background-image: url(https://sign.52tzs.com/assets/youxi/css/images/icon-voice.png);
 	background-position: 100% 100%;
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
