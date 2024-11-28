@@ -91,32 +91,7 @@
 								<i class="fa fa-star mr-2 text-warning"></i>点击查看 | 安装须知 | 教程说明 | 关于我们<i class="fa fa-chevron-down font-10 accordion-icon"></i>
 							</button>
 							
-																<!--开站时间开始-->       
-					<center>
-  
-            <span class="nav-item">
-             <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span> <script language="javascript"> 
-    var now = new Date();
-    function createtime(){
-        var grt= new Date("01/01/2022 00:00:00");/*---这里是网站的启用时间--*/
-        now.setTime(now.getTime()+250);
-        days = (now - grt ) / 1000 / 60 / 60 / 24;
-        dnum = Math.floor(days);
-        hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum);
-        hnum = Math.floor(hours);
-        if(String(hnum).length ==1 ){hnum = "0" + hnum;}
-        minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum);
-        mnum = Math.floor(minutes);
-        if(String(mnum).length ==1 ){mnum = "0" + mnum;}
-        seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
-        snum = Math.round(seconds);
-        if(String(snum).length ==1 ){snum = "0" + snum;}
-        document.getElementById("timeDate").innerHTML = "⏱️本站已稳定运行"+dnum+"天";
-        document.getElementById("times").innerHTML = hnum + "小时" + mnum + "分" + snum + "秒";
-    }
-    setInterval("createtime()",250); 
-</script>  
-		<!--开站时间结束-->  						
+			
 							<div id="collapse1" class="collapse bg-theme show" data-parent="#accordion-6">
 								<div class="p-3 color-theme">
 									<p class="pb-0 mb-0 font-18"></p>
